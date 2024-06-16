@@ -14,3 +14,6 @@ The Simple Photos Gallery project integrates fundamental concepts from HTML, CSS
 - Flexbox: Utilized to manage the layout of gallery items, leveraging the display: flex; property on the parent container. This allows for flexible arrangement of items in rows by default.
 - Transitions: Applied to CSS properties to ensure fluidity in visual changes. This technique enhances user interaction by smoothing out transitions between different states or appearances.
 - Positioning (absolute and relative): Demonstrated through the strategic use of position: absolute; on child elements within the gallery items and position: relative; on their parent containers. This technique ensures precise placement and layering of overlapping elements.
+
+#### Accessing the Project
+To explore and interact with the project, visit the following link: https://jquery-photos-gallery-zeta.vercel.app/
