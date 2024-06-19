@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    position: relative;
+  }
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 16px;
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+    border-bottom: 10px solid #04446e;
+}
+
+header ul {
+    list-style-type: none; /* Remove marcadores de lista */
+    display: flex; /* Transforma a lista em um flex container */
+    justify-content: center; /* Alinha os itens ao centro horizontalmente */
+    align-items: center; /* Alinha os itens ao centro verticalmente */
+}
+
+header li {
+    margin: 0 10px; /* Espaçamento entre os itens */
+}
+
+header img {
+    width: 50px;
+    height: auto;
+}
+
+header h1 {
+    margin: 0; /* Remove margens padrão */
+    text-transform: uppercase;
+}
+
+body {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+form{
+    margin-bottom: 20px;
+}
+form div{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+form input {
+    text-align: left;
+    padding: 10px 250px;
+    margin-right: 5px;
+}
+
+
+button {
+    padding: 5px 20px;
+    margin: 0 5px;
+
+}
+
+#add-task {
+    background-color: #3498db;
+    color: #fff;
+}
+
+#clear-button {
+    background-color: red;
+    color: #fff;
+}
+
+#space-tasks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+
+}
+ .task-item{
+    display: flex;
+    justify-content: space-between; /* Align items properly */
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 5px 10px; /* Adjust the padding to reduce size */
+    margin-bottom: 10px; /* Add margin between task items */
+    width: 50%; /* Reduce the width */
+    box-sizing: border-box;
+ }
+
+ .task-item h3{
+    flex:1;
+    margin: 0;
+    padding: 0 10px;
+    
+ }
+
+.button-done{
+    background-color: green;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+    form input {
+        width: 60%;
+    }
+
+    button {
+        width: 30%; /* Adjust the width of buttons to 30% of their container */
+        margin: 5px; /* Add some margin around buttons */
+    }
+}
+/*Footer Styles*/
+
+body::after {
+    content: '';
+    display: block;
+    height: 50px;
+    /* Set same as footer's height */
+  }
+footer {
+    text-align: center;
+    position: absolute;
+    padding: 15px 0;
+    color: white;
+    background-color: #04446e;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+  }
